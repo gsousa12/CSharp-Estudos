@@ -1,3 +1,4 @@
+
 namespace POO
 {
     public class CarrinhoItem
@@ -8,3 +9,4 @@ namespace POO
         public double preco;
     }
 }
+

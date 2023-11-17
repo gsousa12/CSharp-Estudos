@@ -2,43 +2,55 @@ namespace POO
 {
     public class CarrinhoItem2
     {
-        private string _nome;
-        // private int _quantidade;
-        private double _preco;
+        public string Nome { get; set; }
+        private int _quantidade;
 
-        /*
-        public string getNome()
+        public int Quantidade
         {
-            return _nome;
-        }
-
-        public void setNome(string nome)
-        {
-            if (String.IsNullOrEmpty(nome))
-            {
-                throw new Exception("Nome não pode ser vazio");
-            }
-            this._nome = nome;
-
-        }
-        */
-
-        // GET E SET no Csharp
-
-        public string Nome
-        {
-            get { return _nome; }
+            get { return _quantidade; }
             set
             {
-                if (String.IsNullOrEmpty(value))
+                if (value > 0)
                 {
-                    throw new Exception("Nome não pode ser vazio");
+                    _quantidade = value;
                 }
-                this._nome = value;
+                else
+                {
+                    _quantidade = 1;
+                }
+            }
+        }
+        private double _preco;
+
+        public double Preco
+        {
+            get { return _preco; }
+            set
+            {
+                if (value > 0)
+                {
+                    _preco = value;
+
+                }
+                else
+                {
+                    _preco = 1;
+                }
             }
         }
 
-        public int Quantidade { get; set; }
+        // Construtor da classe
 
+        public CarrinhoItem2()
+        {
+            _quantidade = 1;
+            _preco = 1;
+        }
+        public CarrinhoItem2(string nome, double preco) : base()
+        {
+            Nome = nome;
+            _quantidade = 1;
+            _preco = preco;
+        }
     }
 }

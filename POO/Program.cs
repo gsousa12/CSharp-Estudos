@@ -13,9 +13,13 @@ camisa.quantidade = 20;
 camisa.preco = 30.0;
 
 Console.WriteLine("\n" + bola.nome);
-Console.WriteLine("\n");
 
 
 CarrinhoItem2 sapato = new CarrinhoItem2();
 
 sapato.Nome = "";
+sapato.Quantidade = 0;
+sapato.Preco = 0;
+
+Console.WriteLine("\n" + sapato.Quantidade);
+Console.WriteLine("\n" + sapato.Preco);
