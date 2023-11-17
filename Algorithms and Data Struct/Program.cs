@@ -5,8 +5,7 @@ class Program
     {
         // Inverter uma String
         //inverterString.RunStringInverter(); 
-
-        
+        Console.WriteLine("Hello world");
         
     }
 }
