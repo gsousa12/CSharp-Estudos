@@ -7,7 +7,7 @@ class Program
         //inverterString.RunStringInverter(); 
 
         // Inverter uma frase
-        InverterPalavras.RunPhaseInverter();
+        //InverterPalavras.RunPhaseInverter();
         
     }
 }
