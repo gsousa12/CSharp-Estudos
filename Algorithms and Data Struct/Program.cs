@@ -8,6 +8,9 @@ class Program
 
         // Inverter uma frase
         //InverterPalavras.RunPhaseInverter();
+
+        // Gerar Senha Aleatoria
+        //GerarSenha.RunPasswordGenerator();
         
     }
 }
