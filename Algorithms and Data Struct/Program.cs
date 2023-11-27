@@ -11,6 +11,9 @@ class Program
 
         // Gerar Senha Aleatoria
         //GerarSenha.RunPasswordGenerator();
+
+        // Somar Diagonal de uma Matriz
+        DiagonalSum.RunDiagonalSum();
         
     }
 }
