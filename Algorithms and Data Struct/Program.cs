@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 class Program
 {
     static void Main()
@@ -13,7 +13,10 @@ class Program
         //GerarSenha.RunPasswordGenerator();
 
         // Somar Diagonal de uma Matriz
-        DiagonalSum.RunDiagonalSum();
+        //DiagonalSum.RunDiagonalSum();
+
+        // Binario para Decimal
+        BinaryToDecimal.RunBinaryToDecimal();
         
     }
 }
