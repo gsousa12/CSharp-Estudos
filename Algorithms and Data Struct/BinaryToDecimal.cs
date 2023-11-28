@@ -1,4 +1,3 @@
-// Arquivo BinaryToDecimal.cs
 using System;
 
 public class BinaryToDecimal

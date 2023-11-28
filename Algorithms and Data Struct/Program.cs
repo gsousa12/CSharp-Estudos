@@ -16,7 +16,7 @@ class Program
         //DiagonalSum.RunDiagonalSum();
 
         // Binario para Decimal
-        BinaryToDecimal.RunBinaryToDecimal();
+        //BinaryToDecimal.RunBinaryToDecimal();
         
     }
 }

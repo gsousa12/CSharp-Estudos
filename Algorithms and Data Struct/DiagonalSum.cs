@@ -22,7 +22,7 @@ class DiagonalSum
             if (rowInput.Length != columns)
             {
                 Console.WriteLine("A quantidade de valores fornecidos não corresponde ao número de colunas. Tente novamente.");
-                i--; // Volta uma iteração para repetir a entrada para esta linha da matriz
+                i--; 
                 continue;
             }
 
