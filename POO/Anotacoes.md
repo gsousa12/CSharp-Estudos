@@ -18,7 +18,14 @@
 
 **Encapsulamento** -> É um mecanismo que trata de dar segurança aos objetos, mantendo-os comtrolados em relação ao seu nível de acesso.
 
-## Características da OO
+## A primeira classe
 
-POO tem como principal caracteristica a *reutilização*.
+• POO tem como principal caracteristica a *reutilização*.
+
+• Uma classe tem a finalidade de tipificar um objeto que possa ser usado em uma aplicação.
+
+• Uma classe é um Tipo Abstrato de Dado (TAD).
+
+• Um objeto é *uma instância* de uma classe.
+
 
